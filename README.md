@@ -26,7 +26,7 @@ The primary objective of this project is to develop a chatbot that leverages Lar
 6. Interact with the chatbot by typing messages and receiving responses from the local LLM service.
 
 ## Setting up LLMs
-We begin by setting up the LLMs on our local machines:
+Ensure your local language model service is running:
 
 ### Installation Instructions:
 ### macOS
@@ -44,6 +44,10 @@ We begin by setting up the LLMs on our local machines:
 2.	Run the following command to install Ollama: `curl -fsSL https://ollama.com/install.sh | sh`
 
 For further instructions, visit the [Ollama GitHub page](https://github.com/ollama/ollama).
+
+### After installing Ollama, start the service
+
+Start your local instance of the LLM service (e.g., llama). Example command to start the service: `ollama serve --model llama3`
 
 ## Acknowledgment
 This LLM model was originally published by [Ollama](https://github.com/ollama/ollama).
