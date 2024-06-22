@@ -7,8 +7,9 @@ def local_llm_response(messages):
     url = "http://localhost:11434/api/chat"
     headers = {"Content-Type": "application/json"}
     payload = {
-        "model": "llama3",
-        "messages": messages
+        "model": "gemma:2b",
+        "messages": messages,
+        "stream": False
     }
 
     # Debugging: Print payload before sending request
