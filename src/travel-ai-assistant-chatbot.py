@@ -23,7 +23,7 @@ def local_llm_response(messages):
     print(response.json())
 
     if response.status_code == 200:
-        return response.json().get("reply", "Error: No response from LLM")
+        return response.json().get("message", {}).get("content")
     else:
         return f"Error: {response.status_code}"
 
