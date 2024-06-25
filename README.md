@@ -10,7 +10,7 @@ The primary objective of this project is to develop a chatbot that leverages Lar
 ## Project Structure
 - **src/**: Contains Python Streamlit-based chatbot scripts.
 - **report/**: Stores [Report](report) files.
-- **video/**: Contains [video](video) presentation. You can also watch the video on [YouTube](link).
+- **video/**: Contains [video](video) presentation. You can also watch the video on [YouTube](https://youtu.be/vMrnyC7BkRE).
 
 ## Dependencies
 - Python 3.7+
